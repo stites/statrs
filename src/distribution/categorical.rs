@@ -23,8 +23,8 @@ use std::f64;
 /// ```
 #[derive(Debug, Clone, PartialEq)]
 pub struct Categorical {
-    norm_pmf: Vec<f64>,
-    cdf: Vec<f64>,
+    pub norm_pmf: Vec<f64>,
+    pub cdf: Vec<f64>,
 }
 
 impl Categorical {
